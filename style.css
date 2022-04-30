@@ -1,0 +1,41 @@
+#horizontal_bar {
+    position: fixed;
+    top: 0;
+    height: 5px;
+    width: 100%;
+    background: #ddd;
+    display: none;
+    z-index: 999;
+}
+#container_circle {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    top: 7%;
+    left: 12px;
+    display: none;
+    z-index: 999;
+}
+#bigger_circle {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #ddd;
+    margin-bottom: 20px;
+}
+#inner_circle {
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    background: #fff;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #498;
+}
